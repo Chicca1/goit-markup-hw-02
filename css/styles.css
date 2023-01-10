@@ -35,8 +35,6 @@ border: none;
 /*title-decor*/
 
 .logo-text1 {
-width: 44px;
-height: 24px;
 font-family: var(--secondary-font);
 font-weight: 800;
 font-size: 18px;
@@ -48,8 +46,6 @@ color: #4D5AE5;
 }
 
 .logo-text2 {
-width: 71px;
-height: 24px;
 font-family: var(--secondary-font);
 font-weight: 800;
 font-size: 18px;
@@ -64,28 +60,35 @@ color: var(--basic-text-colour);
 
 
 .menu-list {
-font-weight: 500;
 color: var(--basic-text-colour);
 }
 
 .menu-item {
 font-weight: 500;
 color: var(--basic-text-colour);}
-.menu-item:active,
 .menu-item:focus,
 .menu-item:hover {
 color: var(--colour-change);   
 }
 
 
-
-
 .site-contacts {
 color: #434455;
 }
 
+.telephone {
+color:#434455;
+}
 
-.email:active,
+.telephone:focus,
+.telephone:hover {
+color: var(--colour-change);      
+}
+
+.email {
+color: #434455;}
+
+
 .email:focus,
 .email:hover {
 color: var(--colour-change);
@@ -183,8 +186,7 @@ color: var(--basic-text-colour);
 }
 
 .member-description {
-width: 85px;
-height: 24px;
+
 font-family: var(--basic-font);
 color: #434455;
 }
