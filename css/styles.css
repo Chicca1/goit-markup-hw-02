@@ -59,10 +59,6 @@ color: var(--basic-text-colour);
 /*Header*/
 
 
-.menu-list {
-color: var(--basic-text-colour);
-}
-
 .menu-item {
 font-weight: 500;
 color: var(--basic-text-colour);}
